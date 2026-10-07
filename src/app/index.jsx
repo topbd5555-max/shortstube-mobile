@@ -41,7 +41,7 @@ const AnimatedSplashScreen = ({ onFinish }) => {
       
       {/* ২য় ছবিটা (Splash Image) এখানে রেন্ডার হচ্ছে */}
       <Animated.Image
-        source={require('../../assets/splash.jpg')} 
+        source={require('../../assets/splash.png')} 
         style={[styles.splashImage, { transform: [{ scale: pulseAnim }] }]}
         resizeMode="cover"
       />
